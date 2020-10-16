@@ -55,7 +55,7 @@ public class OrcamentoView extends javax.swing.JFrame {
         jButtonCalcularOrcamento = new javax.swing.JButton();
 
         setDefaultCloseOperation(javax.swing.WindowConstants.EXIT_ON_CLOSE);
-        setTitle("Orçamento de Mão-de-Obra");
+        setTitle("Padrão de Projeto Template - Tema >Orçamento de Mão-de-Obra");
         setResizable(false);
 
         jLabel1.setText("Tipo do piso: ");
@@ -128,7 +128,7 @@ public class OrcamentoView extends javax.swing.JFrame {
         jPanelOrcamentoLayout.setVerticalGroup(
             jPanelOrcamentoLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
             .addGroup(jPanelOrcamentoLayout.createSequentialGroup()
-                .addGap(27, 27, 27)
+                .addContainerGap(57, Short.MAX_VALUE)
                 .addGroup(jPanelOrcamentoLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
                     .addComponent(jLabel1)
                     .addComponent(jCheckBoxPorcelanato)
@@ -149,8 +149,7 @@ public class OrcamentoView extends javax.swing.JFrame {
                     .addComponent(jLabel4)
                     .addComponent(jTextFieldValorDoMetro, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE))
                 .addGap(38, 38, 38)
-                .addComponent(jScrollPane1, javax.swing.GroupLayout.PREFERRED_SIZE, 217, javax.swing.GroupLayout.PREFERRED_SIZE)
-                .addContainerGap(30, Short.MAX_VALUE))
+                .addComponent(jScrollPane1, javax.swing.GroupLayout.PREFERRED_SIZE, 217, javax.swing.GroupLayout.PREFERRED_SIZE))
         );
 
         javax.swing.GroupLayout layout = new javax.swing.GroupLayout(getContentPane());
@@ -164,7 +163,7 @@ public class OrcamentoView extends javax.swing.JFrame {
         );
         layout.setVerticalGroup(
             layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-            .addGroup(layout.createSequentialGroup()
+            .addGroup(javax.swing.GroupLayout.Alignment.TRAILING, layout.createSequentialGroup()
                 .addContainerGap()
                 .addComponent(jPanelOrcamento, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
                 .addContainerGap())
